@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyod</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="font/Raleway-VariableFont_wght.ttf" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="nav py-2">
+ <!-- Brand -->
+ <div class="container">
+
+
+ <div class="row">
+
+   <div class="col-4">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.svg" alt="Logo" class="img-fluid">
+     </a>
+    
+   </div>
+  
+  
+  <div class="col-8 d-flex justify-content-end">
+    <ul class="nav ">
+      <li class="nav-item">
+      <a class="nav-link text-dark"  href="#">Features</a>
+      </li>
+     <li class="nav-item">
+      <a class="nav-link text-dark" href="#">Team</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link text-dark" href="#">Sign In</a>
+     </li>
+    
+     </ul>
+  </div>
+
+ </div>
+</div>
+  </div>
+ 
+
+   
+
+     <div class="hero"> 
+         <div class="container">
+             <div class="row d-flex flex-column-reverse d-lg-flex flex-lg-row ">
+                 <div class="col-lg-6 hero-txt ">
+                     <h2 class="px-0">All Your files in one secure location, accessible anywhere.</h2>
+                     <p class="py-2 ">Fylo stores your most important filesin one secure location. Access them where you need, share and collaborate with friends, family, and co-workers.</p>
+                    
+                  <div class="form" >
+                      
+                         <div class="row no-gutters flex-column flex-lg-row">
+                           <div class="col-lg-7 ">
+                            <input type="email"  id="email"  placeholder="Enter Your Email..." class="form-control">
+                           </div>
+                        <div class="col-lg-5 px-xl-3 px-lg-2 mt-2 mt-lg-0 " >
+                          <button  class="px-4 clickme " onclick="checkmessage();">Get Started </button>
+                        </div>
+                        
+                       <p id="message-me">Please check your email</p>
+                         </div>
+                        
+                        </div>
+
+
+
+                 </div>
+                 <div class="col-lg-6 ">
+                     <img src="images/illustration-1.svg" alt="illustration-1" style="width: 100%;"> 
+                 </div>
+             </div>
+         </div>
+     </div>
+  
+
+     <div class="features"> 
+      <div class="container">
+          <div class="row d-flex flex-column-reverse d-lg-flex flex-lg-row">
+              <div class="col-lg-6 ">
+                  <h2>Stay Productive, wherever you are</h2>
+                  <p class="mt-1">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. 
+                  </p>
+                      <p class="mt-2"> 
+                         Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments are required!
+                      </p>
+                          <p class="text-success fyloworktxt">See how Fylo Works <img src="images/icon-arrow.svg" alt="icon-arrow"> </p>
+                   
+                         <div class="card-container ">
+                 <div class="card shadow border border-0">
+                  <div class="card-body">
+                      <img src="images/icon-quotes.svg" alt="quoteicon">
+                      <p class="card-text">Fylo has improved our teams productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                      <div class="container">
+                      <div class="row  d-flex justify-content-start">
+                         
+                          <div class="img-container ">
+                              <div class="col-4-cont">
+                                 <img src="images/avatar-testimonial.jpg" alt="avatar" class="img-fluid rounded-circle avatar">
+                              </div>   
+                          </div>
+                          <div class="d-flex flex-column justify-content-center mx-2">
+                            
+                                  <p class="font-weight-bold authourname  py-0 my-0 ">Kyle Burton</p>
+                                  <p class="abtauthour  py-0 my-0">Founder & CEO, Huddie</p>   
+                          </div>
+                    </div>
+                      </div>
+                  </div>
+              </div>
+                </div>
+              </div>
+              <div class="col-lg-6 py-5">
+                  <img src="images/illustration-2.svg" alt="illustration-1" style="width: 100%;"> 
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="team">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-light">
+                    <h2>Get early access today</h2>
+                    <p class="team-p">It only takes some minutes to sign up and our free starter tier is extremely generous. If you have any questions, our support team will be happy to help you. </p>
+                </div>
+       
+
+                <div class="col-lg-6">
+                        <form class="container px-0 ">
+                    
+                        <div class="form d-flex flex-column justify-content-center align-items-center">
+                          <input type="email"   class="form-control w-100" placeholder="123@example.com" id="emailme" >
+                          
+                        </div>
+                        <p id="message" class="text-left">Please check your email</p>
+                        
+                        <button  type="button" class="click-btn  mt-1" onclick="checkmessage2();">Get Started For Free</button>
+                     <!-- name="validate" value="Validate" onclick="ValidateEmail2(document.form2.text2); -->
+                        </form>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+  
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <img src="images/logowhite.svg"  class="text-light"
+            alt="logo">
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-3  contact">
+              
+                <div class="d-flex flex-row  align-items-start">
+                  <div class="img-block ">
+                    <img src="images/icon-phone.svg" alt="phone" class="d-block">
+                  </div>
+                 
+                  <p class="ml-3 text-center">+92-318-1114727</p>
+                </div>
+                <div class="d-flex flex-row ">
+                  <div class="img-block">
+                    <img src="images/icon-email.svg" alt="email" class="d-block">
+                    
+                  </div>
+                 
+                  <p class="ml-3">example@fylo.com</p>
+                </div>
+              
+              </div>
+           
+            <div class="col-lg-3 px-0 my-4 my-lg-0">
+              <ul class="nav flex-column ">
+                <li class="nav-item">
+                  <a class="nav-link pt-0" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Press</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 px-0 my-4 my-lg-0">
+              <ul class="nav flex-column">
+                <li class="nav-item ">
+                  <a class="nav-link pt-0" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Term</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+                </li>
+              
+              </ul>
+            </div>
+            <div class="col-lg-3  d-flex flex-row">
+              <div class="container d-flex justify-content-lg-start justify-content-center">
+                <div class="row">
+                  <i class="fab fa-facebook-f mx-2 "></i>
+                  <i class="fab fa-twitter mx-2 "></i>
+                  <i class="fab fa-instagram mx-2 "></i>
+                </div>
+                
+              </div>
+             
+            </div>
+          </div>
+        </div>
+
+    
+    <script src="fontawesome/js/all.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="fylo.js"></script>
+</body>
+</html>

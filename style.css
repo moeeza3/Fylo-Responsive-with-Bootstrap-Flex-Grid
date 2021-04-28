@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.hero{
+    padding: 7% 0;
+}
+
+.hero-txt{
+
+    padding: 6% 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.hero #email{
+    width: 50%;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+.py-2{
+    font-size: 18px;
+}
+
+.clickme{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    width: inherit;
+    height: 40px;
+    border-radius: 4px;
+    color: hsl(0, 0%, 99%);
+    outline: none;
+  
+    
+}
+.clickme:hover{
+    background-color: #6b9bff;
+}
+.clickme:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+#message-me{
+    color: red;
+    display: none;
+}
+#email:focus{
+    box-shadow: none;
+  outline: none;
+}
+
+
+/* ---------------features--------- */
+.features{
+    padding: 10% 0;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.fyloworktxt{
+    position: relative;
+}
+
+.fyloworktxt:hover::after{
+    content: "________________________";
+   position: absolute;
+   text-decoration: underline;
+   top: 12%;
+   left: 0;
+   width: 100%;
+   height: 2px;
+}
+
+.card{
+    margin-right: 35%;
+   
+}
+.card p{
+    font-size: 13px;
+}
+
+
+.avatar{
+    width: 60px;
+    height: 60px;
+}
+/*-------------- team--------------- */
+.team{
+    padding: 10% 0;
+    background-color: hsl(238, 22%, 44%);
+}
+.team-p{
+    margin-right: 12%;
+}
+.form .col-lg-7 #email{
+    width: inherit;
+}
+.click-btn{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    padding: 0 40px;
+    height: 40px;
+    border-radius: 4px;
+    color: hsl(0, 0%, 99%);
+    outline: none;
+  
+    
+}
+.click-btn:hover{
+    background-color: #6b9bff;
+}
+.click-btn:focus{
+    box-shadow: none;
+    outline: none;
+}
+#message{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-align: left;
+}
+#emailme:focus{
+    box-shadow: none;
+  outline: none;
+}
+/*-------------- footer--------------- */
+.footer{
+    padding: 10% 0;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.footer .nav-link{
+    color: white;
+}
+
+.footer .fa-facebook-f{
+    border: 1px dashed white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    padding: 5%;
+}
+
+
+.footer .fa-twitter{
+    border: 1px dashed white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    padding: 5%;
+}
+
+
+.footer .fa-instagram{
+    border: 1px dashed white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    padding: 5%;
+}
+@media screen and (max-width: 1200px){
+    .card{
+        margin-right: 20%;
+    }
+   
+  }
+@media screen and (max-width: 992px){
+
+  .card{
+      margin-left: 10%;
+        margin-right: 10%;
+       
+    } 
+  .avatar{
+        width: 60px;
+        height: 60px;
+    } 
+    .click-btn{  
+        width: inherit;
+    }
+    form .form-control,.btn{
+        width: inherit;
+    }
+    .footer .fa-facebook-f{
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        padding: 5%;
+    }
+    
+    
+    .footer .fa-twitter{
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        padding: 5%;
+    }
+    
+    
+    .footer .fa-instagram{
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 576px){
+    .nav-link {
+        font-size: 14px;
+    }
+    .footer{
+        padding: 10% 5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+   
+   
+    .nav-link{
+        font-size: 12px;
+    }
+    .hero .container .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column-reverse;
+        text-align: center;
+        padding: 10% 5%;
+    }
+    .hero-txt p{
+        font-size: 14px;
+    }
+    .hero-txt h2{
+      font-size: 22px;
+    }
+    .hero #email{
+        width: 100%;
+    }
+    .form-inline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2%;
+      
+    }
+    .form-inline .btn{
+        width: 100%;
+        margin-top: 2%;
+    }
+    #message-me{
+   
+        text-align: center;
+    }
+   
+    .features h2{
+        text-align: center;
+        font-size: 18px;
+        padding: 0 5%;
+    }
+    .fyloworktxt{
+        text-align: center;
+    }
+   
+    .card-container{
+        padding: 0% 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  
+   .card{
+   
+    margin: 0;
+    width: 100%;
+}
+  
+.team .container .row{
+        text-align: center;
+        padding: 10% 5%; 
+       
+    }
+.team h2{
+        font-size: 16px;
+      }
+      .team-p{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0;
+     
+      }
+.team .btn{
+          width: 100%;
+      }
+.footer{
+          padding: 10% 5%;
+      }
+.footer .fa-facebook-f{
+        border: 1px solid white;
+       
+    }
+    
+    
+.footer .fa-twitter{
+        border: 1px solid white;
+       
+    }
+    
+    
+.footer .fa-instagram{
+        border: 1px solid white;
+       
+    }
+  }
+
+  @media screen and (max-width: 352px) {
+    .nav-link{
+        font-size: 10px;
+    }
+  
+  }
+  @media screen and (max-width: 320px) {
+    .nav-link{
+        font-size: 7px;
+       
+    }
+  }
